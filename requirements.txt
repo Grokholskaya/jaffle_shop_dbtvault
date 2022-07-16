@@ -21,11 +21,8 @@ colorama==0.4.3
 contextlib2==0.6.0
 cryptography==3.3.1
 dbt==0.19.0
-dbt-bigquery==0.19.0
 dbt-core==0.19.0
 dbt-postgres==0.19.0
-dbt-redshift==0.19.0
-dbt-snowflake==0.19.0
 decorator==4.4.2
 distlib==0.3.0
 distro==1.4.0

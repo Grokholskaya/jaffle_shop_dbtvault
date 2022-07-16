@@ -6,3 +6,5 @@ target/
 .idea/
 
 dbt_modules
+graph.txt
+graph1.txt
