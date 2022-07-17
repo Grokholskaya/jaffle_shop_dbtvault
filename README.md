@@ -13,6 +13,9 @@ pipenv shell
 dbt --version
 dbt debug
 ```
+*Не получилось установить через `pipenv`, неразрешимые зависимости при установке `typing-extensions`. Исключила snowflake connector, из-за которого возникали противоречия с версиями из requirements.txt и установила пакеты через `pipenv run pip install -r`
+До Docker-а не добралась.*
+
 
 ### Docker
 
