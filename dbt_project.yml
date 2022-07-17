@@ -43,10 +43,6 @@ models:
       sats:
         tags:
           - 'satellite'
-      pit:
-        tags:
-          - 'pit'
-        materialized: view
     business_vault:
       tags:
         - 'business_vault'
@@ -54,7 +50,7 @@ models:
         tags:
           - 'pit'
         materialized: table
-    # data_marts:
-    #   tags:
-    #     - 'marts'
-    # materialized: view
+    data_marts:
+      tags:
+        - 'marts'
+      materialized: view
