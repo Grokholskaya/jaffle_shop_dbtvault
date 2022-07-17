@@ -8,8 +8,14 @@ satellites:
       PK: customer_pk
     ldts:
       LDTS: load_date
+  sat_customer_details_crm:
+    pk:
+      PK: customer_pk
+    ldts:
+      LDTS: load_date
 stage_tables:
   v_stg_customers: load_date
+  v_stg_customers_crm: load_date
 src_ldts: load_date
 {%- endset -%}
 
