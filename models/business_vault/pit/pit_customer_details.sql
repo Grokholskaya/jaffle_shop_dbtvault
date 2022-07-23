@@ -21,7 +21,7 @@ src_ldts: load_date
 
 {% set metadata_dict = fromyaml(yaml_metadata) %}
 
-{{ pit(source_model=metadata_dict['source_model'], 
+{{ dbtvault.pit(source_model=metadata_dict['source_model'], 
                 src_pk=metadata_dict['src_pk'],
                 as_of_dates_table=metadata_dict['as_of_dates_table'],
                 satellites=metadata_dict['satellites'],

@@ -1,3 +1,2 @@
 packages:
-  - git: "https://github.com/kzzzr/dbtvault.git"
-    revision: master
+  - local: "/home/vasya/hw4/dbtvault"
